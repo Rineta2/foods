@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="src/sass/css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="nav container">
+        <div class="logo">
+          <h1>Foods</h1>
+        </div>
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+          <i class="bx bx-x" id="close"></i>
+        </ul>
+
+        <i class="bx bx-menu-alt-right" id="hamburger"></i>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home -->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1>Lezat <span>Nusantara</span> Restoran</h1>
+            <p>
+              Lezat Nusantara Restoran adalah tempat untuk menikmati hidangan
+              khas Indonesia dengan rasa lezat yang memikat hati dan perut Anda.
+            </p>
+            <a href="#menu">Lihat Menu Sekarang</a>
+          </div>
+        </div>
+
+        <div class="parallax"></div>
+      </section>
+
+      <!-- About -->
+      <section class="about" id="about">
+        <div class="about__container container grid">
+          <div class="heading">
+            <h1>Tentang <span>Kami</span></h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              distinctio suscipit ipsam! Aspernatur veniam, vel, temporibus
+              facilis exercitationem ipsum amet inventore in dolorem provident
+              nisi laboriosam blanditiis mollitia sapiente debitis?
+            </p>
+          </div>
+
+          <div class="content">
+            <div class="img">
+              <img src="src/assets/about.jpg" alt="about" />
+            </div>
+
+            <div class="text">
+              <h2>Lezat <span>Nusantara</span> Restoran</h2>
+              <p>
+                Lezat Nusantara Restoran menyajikan hidangan autentik dari
+                seluruh penjuru Indonesia, memanjakan lidah Anda dengan cita
+                rasa yang kaya akan rempah dan tradisi. Nikmati rendang Padang,
+                sate Madura, dan banyak lagi di suasana yang nyaman dan ramah.
+                Setiap gigitan adalah perjalanan rasa yang memuaskan.
+              </p>
+
+              <div class="box__content">
+                <div class="box">
+                  <i class="bx bxs-baguette"></i>
+                  <span>Roti Tawar</span>
+                </div>
+
+                <div class="box">
+                  <i class="bx bx-bowl-hot"></i>
+                  <span>Makanan Enak</span>
+                </div>
+
+                <div class="box">
+                  <i class="bx bxs-drink"></i>
+                  <span>Minuman</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <img src="src/assets/element.png" alt="" class="element" />
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="services" id="services">
+        <div class="services__container container grid">
+          <div class="heading">
+            <h1>Layanan <span>Kami</span></h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Inventore possimus animi exercitationem, placeat minima neque.
+            </p>
+          </div>
+
+          <div class="content">
+            <div class="box">
+              <i class="bx bxs-shield-plus"></i>
+              <span>Keamanan</span>
+              <p>
+                Kami mengutamakan keamanan sebagai prioritas utama dalam setiap
+                langkah kami.
+              </p>
+            </div>
+
+            <div class="box">
+              <i class="bx bxs-timer"></i>
+              <span>Pengiriman Cepat</span>
+              <p>
+                Kami menjamin pengiriman barang dengan waktu yang cepat dan
+                terjadwal.
+              </p>
+            </div>
+
+            <div class="box">
+              <i class="bx bx-bowl-hot"></i>
+              <span>Hygienic</span>
+              <p>
+                Produk kami dijaga kebersihannya dan memenuhi standar kebersihan
+                yang tinggi.
+              </p>
+            </div>
+
+            <div class="box">
+              <i class="bx bx-fast-forward"></i>
+              <span>Merespon Dengan Cepat</span>
+              <p>
+                Kami siap merespon setiap permintaan dan pertanyaan Anda dengan
+                cepat dan efisien.
+              </p>
+            </div>
+
+            <div class="box">
+              <i class="bx bx-diamond"></i>
+              <span>Kualitas Premium</span>
+              <p>
+                Kami menghadirkan produk berkualitas premium dengan perhatian
+                terhadap detail dan keunggulan.
+              </p>
+            </div>
+
+            <div class="box">
+              <i class="bx bx-headphone"></i>
+              <span>Pelayanan Pelanggan 24/7</span>
+              <p>
+                Layanan pelanggan kami tersedia 24 jam sehari, 7 hari seminggu
+                untuk memastikan kepuasan Anda.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Promo -->
+
+      <section class="promo">
+        <div class="promo__container container">
+          <div class="content">
+            <h1>Lezat Nusantara Restoran</h1>
+            <span>Nikmati Promo Kami</span>
+            <p>
+              Rasakan kelezatan sejati dengan hidangan khas Nusantara di Lezat
+              Nusantara Restoran. Dapatkan pengalaman kuliner yang memikat
+              dengan menu-menu pilihan kami, disajikan dengan cita rasa autentik
+              dan bumbu-bumbu tradisional yang kaya akan rasa. Jangan lewatkan
+              kesempatan istimewa untuk menikmati promo menarik kami yang
+              menghadirkan hidangan berkualitas dengan harga yang lebih
+              terjangkau.
+            </p>
+
+            <a href="#menu">Lihat Menu</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu -->
+
+      <section class="menu" id="menu">
+        <div class="menu__container container grid">
+          <div class="heading">
+            <h1>Menu Kami</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Obcaecati fugit repudiandae eos aspernatur dolor debitis
+              accusantium earum voluptatum dignissimos quas.
+            </p>
+          </div>
+
+          <!-- Content -->
+
+          <div class="content">
+            <div class="box">
+              <img src="src/assets/product/nasgor.jpg" alt="" />
+
+              <div class="text">
+                <h1>Nasi Goreng</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolor enim assumenda deleniti odio doloremque consequuntur?
+                </p>
+                <span>Rp. 15.000</span>
+                <div class="start">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+
+                <div class="btn">
+                  <div class="cart" data-title="Nasi Goreng" data-price="15000">
+                    <div class="checkout">Beli Sekarang</div>
+                  </div>
+
+                  <div
+                    class="viewport"
+                    data-title="Nasi Goreng"
+                    data-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor enim assumenda deleniti odio doloremque consequuntur?"
+                    data-price="Rp. 15.000"
+                    data-image="src/assets/product/nasgor.jpg"
+                  >
+                    <i class="bx bx-low-vision"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="src/assets/product/kwetiaw.jpg" alt="" />
+
+              <div class="text">
+                <h1>Kwetiaw</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolor enim assumenda deleniti odio doloremque consequuntur?
+                </p>
+                <span>Rp. 15.000</span>
+                <div class="start">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+
+                <div class="btn">
+                  <div class="cart" data-title="Kwetiaw" data-price="15000">
+                    <div class="checkout">Beli Sekarang</div>
+                  </div>
+
+                  <div
+                    class="viewport"
+                    data-title="Kwetiaw"
+                    data-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor enim assumenda deleniti odio doloremque consequuntur?"
+                    data-price="Rp. 15.000"
+                    data-image="src/assets/product/kwetiaw.jpg"
+                  >
+                    <i class="bx bx-low-vision"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="src/assets/product/burger.png" alt="" />
+
+              <div class="text">
+                <h1>Burger</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolor enim assumenda deleniti odio doloremque consequuntur?
+                </p>
+                <span>Rp. 15.000</span>
+                <div class="start">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+
+                <div class="btn">
+                  <div class="cart" data-title="Burger" data-price="15000">
+                    <div class="checkout">Beli Sekarang</div>
+                  </div>
+
+                  <div
+                    class="viewport"
+                    data-title="Burger"
+                    data-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor enim assumenda deleniti odio doloremque consequuntur?"
+                    data-price="Rp. 15.000"
+                    data-image="src/assets/product/burger.png"
+                  >
+                    <i class="bx bx-low-vision"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="src/assets/product/hotdog.png" alt="" />
+
+              <div class="text">
+                <h1>Hotdog</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolor enim assumenda deleniti odio doloremque consequuntur?
+                </p>
+                <span>Rp. 15.000</span>
+                <div class="start">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+
+                <div class="btn">
+                  <div class="cart" data-title="Hotdog" data-price="15000">
+                    <div class="checkout">Beli Sekarang</div>
+                  </div>
+
+                  <div
+                    class="viewport"
+                    data-title="Hotdog"
+                    data-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor enim assumenda deleniti odio doloremque consequuntur?"
+                    data-price="Rp. 15.000"
+                    data-image="src/assets/product/hotdog.png"
+                  >
+                    <i class="bx bx-low-vision"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="src/assets/product/jusalpuket.jpg" alt="" />
+
+              <div class="text">
+                <h1>Jus Alpuket</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolor enim assumenda deleniti odio doloremque consequuntur?
+                </p>
+                <span>Rp. 15.000</span>
+                <div class="start">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+
+                <div class="btn">
+                  <div class="cart" data-title="Jus Alpuket" data-price="15000">
+                    <div class="checkout">Beli Sekarang</div>
+                  </div>
+
+                  <div
+                    class="viewport"
+                    data-title="Jus Alpuket"
+                    data-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor enim assumenda deleniti odio doloremque consequuntur?"
+                    data-price="Rp. 15.000"
+                    data-image="src/assets/product/jusalpuket.jpg"
+                  >
+                    <i class="bx bx-low-vision"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="src/assets/product/jusmelon.jpg" alt="" />
+
+              <div class="text">
+                <h1>Jus Melon</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolor enim assumenda deleniti odio doloremque consequuntur?
+                </p>
+                <span>Rp. 15.000</span>
+                <div class="start">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+
+                <div class="btn">
+                  <div class="cart" data-title="Jus Melon" data-price="15000">
+                    <div class="checkout">Beli Sekarang</div>
+                  </div>
+
+                  <div
+                    class="viewport"
+                    data-title="Jus Melon"
+                    data-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor enim assumenda deleniti odio doloremque consequuntur?"
+                    data-price="Rp. 15.000"
+                    data-image="src/assets/product/jusmelon.jpg"
+                  >
+                    <i class="bx bx-low-vision"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Priview -->
+
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <img id="modal-image" src="" alt="" />
+
+              <div class="text">
+                <h1 id="modal-title"></h1>
+                <p id="modal-description"></p>
+                <span id="modal-price"></span>
+                <span class="close">&times;</span>
+                <img src="src/assets/menu.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Checkout -->
+          <div id="checkoutModal" class="form-modal">
+            <div class="model">
+              <form id="orderForm">
+                <div class="box">
+                  <label for="name"
+                    >Nama Barang:
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      readonly
+                      required
+                    />
+                  </label>
+                </div>
+
+                <div class="box">
+                  <label for="price"
+                    >Harga:
+                    <input type="text" id="price" name="price" readonly />
+                  </label>
+                </div>
+
+                <div class="box">
+                  <label for="quantity"
+                    >Quantity:
+                    <input
+                      type="number"
+                      id="quantity"
+                      name="quantity"
+                      value="1"
+                      min="1"
+                    />
+                  </label>
+                </div>
+
+                <div class="box">
+                  <label for="nama"
+                    >Nama:
+                    <input type="text" id="nama" name="nama" />
+                  </label>
+                </div>
+
+                <div class="box">
+                  <label for="phone"
+                    >Phone:
+                    <input type="tel" id="phone" name="phone" />
+                  </label>
+                </div>
+
+                <div class="box">
+                  <label for="pesan"
+                    >Pesan:
+                    <textarea name="message" id="pesan"></textarea>
+                  </label>
+                </div>
+
+                <div class="btn">
+                  <button type="submit">Checkout</button>
+                  <div class="close">Keluar</div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+
+      <section class="contact" id="contact">
+        <div class="contact__container container grid">
+          <div class="heading">
+            <h1>Contact us</h1>
+            <p>
+              Get in touch with our sales and support teams for demos,
+              onboarding support, or product questions.
+            </p>
+          </div>
+
+          <div class="content">
+            <div class="box">
+              <h3>Whatsapp</h3>
+              <p>
+                Discuss your requirements, learn about pricing, or request a
+                demo.
+              </p>
+              <div class="btn">
+                <a href="https://wa.me/6281234567890">Contact Sales</a>
+              </div>
+            </div>
+
+            <div class="box">
+              <h3>Email</h3>
+              <p>
+                Submit a ticket to our support team or email
+                support@liveblocks.io directly.
+              </p>
+              <div class="btn">
+                <a href="mailto:support@liveblocks.io">Contact Sales</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Copyright &copy; 2023 -
+        <a href="https://rineta.vercel.app/">By rineta</a>
+      </p>
+    </footer>
+
+    <script defer src="src/js/script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
